@@ -40,7 +40,7 @@ cd QueensScheduler
 4. Run the application using your IDE or the following command:
 
 ```bash
-bashCopymvn clean compile
+mvn clean compile
 mvn exec:java -Dexec.mainClass="com.QueensScheduler.Main"
 ```
 
@@ -48,6 +48,7 @@ mvn exec:java -Dexec.mainClass="com.QueensScheduler.Main"
 
 ## Security Notice
 DO NOT SHARE YOUR API CREDENTIALS: The ```google-sheets-client-secret.json``` file contains sensitive information. Ensure it is added to the ```.gitignore``` file and never committed to the repository.
+
 DO NOT EXPOSE YOUR STORED CREDENTIALS: The ```tokens/``` directory contains OAuth tokens used to access Google APIs. Ensure this is also added to ```.gitignore.```
 
 
